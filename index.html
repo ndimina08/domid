@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="C:\Users\LENOVO\Downloads\shopping-cart-g14a5ecc07_1280.png">
+</head>
+<body>
+    <div id="cart">
+      <div class="item">
+        <div width="150" height="150" class="item1">
+          <img width="150px" height="100px" src="C:\Users\LENOVO\Downloads\chaussure all star.png">
+          <h2>All Star</h2>
+          <p>C'est la chaussure des stars <br> Fais toi plaisir et viens prendre ta all star original <br> Tout droit venu des USA</p>
+          <p>Price: 25000 F.CFA</p>
+          <div class="quantity">
+            <button class="minus">-</button>
+            <input type="text" value="1">
+            <button class="plus">+</button>
+          </div>
+          <div class="boutonall">
+            <button onclick="removeItem(1)">&#128465;</button>
+            <button onclick="likeItem(1)">&#10084;</button>
+        </div>
+        </div>
+        
+        <div width="150" heigth="150" class="item2">
+          <img width="150px" height="100px" src="C:\Users\LENOVO\Downloads\chaussure nike.jpg">
+          <h2>Chaussure de sport nike</h2>
+          <p>Tennis Nike original, semelle 100% en gomme <br> confortable pour vos activité en salle de gym et à l'extérieur</p>
+          <p>Price: 20 000 F.CFA</p>
+          <div class="quantity">
+            <button class="minus">-</button>
+            <input type="text" value="1">
+            <button class="plus">+</button>
+          </div>
+          <button onclick="removeItem(1)">&#128465;</button>
+          <button onclick="likeItem(1)">&#10084;</button>
+        </div>
+
+        <div width="150" height="150" class="item3">
+            <img width="150px" height="100px" src="C:\Users\LENOVO\Downloads\shoes-g9322badb1_1280.jpg">
+            <h2>Talon</h2>
+            <p>Magnifique talon fait en peau d'iguane. <br> Idéal pour vos sorties chics et pour le bureau</p>
+            <p>Price: 15.000F.CFA</p>
+            <div class="quantity">
+              <button class="minus">-</button>
+              <input type="text" value="1">
+              <button class="plus">+</button>
+            </div>
+            <button onclick="removeItem(1)">&#128465;</button>
+            <button onclick="likeItem(1)">&#10084;</button>
+          </div>
+          </div>
+        
+          <div id="summary">
+            <p>Total: $<span id="total">0</span></p>
+          </div>
+      </div>
+</body>
+<script>
+    
+</script>
+</html>
